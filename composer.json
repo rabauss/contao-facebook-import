@@ -21,7 +21,7 @@
     "php": ">=7.1",
     "ext-PDO": "*",
     "ext-json": "*",
-    "codefog/contao-haste": "^4.17",
+    "codefog/contao-haste": "^4.17 || ^5.0",
     "contao/core-bundle": "^4.9",
     "doctrine/dbal": "^2.10 || ^3.0",
     "doctrine/doctrine-bundle": "^1.8 || ^2.0",

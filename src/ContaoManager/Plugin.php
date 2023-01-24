@@ -14,6 +14,7 @@ declare(strict_types=1);
 
 namespace Mvo\ContaoFacebookImport\ContaoManager;
 
+use Codefog\HasteBundle\CodefogHasteBundle;
 use Contao\CoreBundle\ContaoCoreBundle;
 use Contao\ManagerPlugin\Bundle\BundlePluginInterface;
 use Contao\ManagerPlugin\Bundle\Config\BundleConfig;
@@ -39,6 +40,7 @@ class Plugin implements BundlePluginInterface, DependentPluginInterface, ConfigP
                     [
                         ContaoCoreBundle::class,
                         'haste',
+                        CodefogHasteBundle::class,
                     ]
                 ),
         ];
